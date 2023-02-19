@@ -1,8 +1,7 @@
 # github_actions_CI_CD
 
-[DIY project of the week - DataTalksClub](https://github.com/DataTalksClub/project-of-the-week)
 
-the goal is to experiment Continuous Integration/Continuous Deployment (CI/CD) techniques offered by the github actions tool.
+The goal is to experiment Continuous Integration/Continuous Deployment (CI/CD) techniques offered by the github actions tool.
 
 Everything will be applied to the following problem:
 
@@ -10,4 +9,4 @@ A bank is investigating a very high rate of customer leaving the bank. In order 
 
 Dataset source: [Deep Learning A-Z - ANN dataset | Kaggle](https://www.kaggle.com/datasets/filippoo/deep-learning-az-ann)
 
-It's a binary classification problem over tabular data. The solution proposed as a starting point for the CI/CD experiments, is a Random Forest Classifier model, with target metric F1 score.
+It's a binary classification problem over tabular data. The solution proposed as a starting point for the CI/CD experiments, is a Random Forest Classifier model, with F1 score as performance metric.
