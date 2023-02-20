@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "temp2-proj"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "temp2_proj"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+alibi-detect = "^0.11.0"
+dvc = {extras = ["all"], version = "^2.45.1"}
+python-box = "^7.0.0"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+sqlalchemy = "^2.0.4"
+psycopg2-binary = "^2.9.5"
+matplotlib = "^3.7.0"
+seaborn = "^0.12.2"
+plotly-express = "^0.4.1"
+scikit-learn = "^1.2.1"
+lightgbm = "^3.3.5"
+xgboost = "^1.7.4"
+eli5 = "^0.13.0"
+uvicorn = "^0.20.0"
+fastapi = "^0.92.0"
+csv2md = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
