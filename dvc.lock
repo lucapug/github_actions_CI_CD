@@ -71,12 +71,12 @@ stages:
           model_dir: models
           model_path: models/clf-model.joblib
           params:
-            n_estimators: 200
+            n_estimators: 30
             max_depth: 20
     outs:
     - path: models/clf-model.joblib
-      md5: 4407d2a8b73294ba5c0818c52b0c1f16
-      size: 20685480
+      md5: 57a3e579146919848c312a531b654361
+      size: 3109160
   eval:
     cmd: python src/stages/eval.py --config=params.yaml
     deps:
@@ -85,8 +85,8 @@ stages:
       size: 722258
       nfiles: 4
     - path: models/clf-model.joblib
-      md5: 4407d2a8b73294ba5c0818c52b0c1f16
-      size: 20685480
+      md5: 57a3e579146919848c312a531b654361
+      size: 3109160
     - path: src/stages/eval.py
       md5: e25bbda500c857cf9c2b400cdd5a16c4
       size: 2508
@@ -117,15 +117,15 @@ stages:
           model_dir: models
           model_path: models/clf-model.joblib
           params:
-            n_estimators: 200
+            n_estimators: 30
             max_depth: 20
     outs:
     - path: metrics.json
-      md5: 74215be39d8e96aeb80424734c05c30e
+      md5: 6877a4e35144acf7499217a84dc3947f
       size: 67
     - path: reports/feat_imp.csv
-      md5: 8121a8e2486e996a57579bb709054607
-      size: 186
+      md5: 3c980686795eb14d262c4c64d2f14412
+      size: 185
     - path: reports/figures/cm.png
-      md5: 16712d1a45ca8eea159857196933288e
-      size: 10022
+      md5: acd57384ebaaeaaf8aa7cb07914aae70
+      size: 10399
