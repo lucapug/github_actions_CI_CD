@@ -25,6 +25,7 @@ eli5 = "^0.13.0"
 uvicorn = "^0.20.0"
 fastapi = "^0.92.0"
 csv2md = "^1.1.2"
+dvc-s3 = "^2.21.0"
 
 
 [build-system]
