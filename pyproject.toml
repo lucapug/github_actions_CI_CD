@@ -26,6 +26,7 @@ uvicorn = "^0.20.0"
 fastapi = "^0.92.0"
 csv2md = "^1.1.2"
 dvc-s3 = "^2.21.0"
+numba = "0.56.4"
 
 
 [build-system]
