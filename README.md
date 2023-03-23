@@ -9,9 +9,9 @@ The goal is to adopt best practices in MLops in order to productionize a ML proj
 * continous deployment: automatic deployment of newly tagged versions of the app
 * data drift monitoring by means of specific data-drift detector to be automatically triggered on batches of inference outputs
 
-the technologies adopted are Iterative DVC and CML combined with Github Actions, S3 storage, Alibi for data drift detection, fly.io for app hosting
+the technologies adopted are Iterative DVC and CML combined with Github Actions, S3 storage, Seldon Alibi for data drift detection, fly.io for app hosting
 
-Everything will be applied to the following problem:
+Everything is applied to the following problem:
 
 A bank is investigating a very high rate of customer leaving the bank. In order to investigate and predict which of the customers are more likely to leave the bank soon (Exited column in the dataset), a dataset of 10.000 customers records is analyzed
 
