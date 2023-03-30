@@ -18,7 +18,7 @@ jobs:
           python-version: "3.9"
       - name: PullModel
         env:
-          REPO_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          REPO_TOKEN: ${{ secrets.PAT_github_actions_CI_CD }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
